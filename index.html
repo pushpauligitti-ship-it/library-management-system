@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Library Management System</title>
+
+<style>
+
+body{
+    text-align:center;
+    font-family:Arial,sans-serif;
+    background:linear-gradient(45deg,lightblue,white,lightgreen);
+}
+
+/* Heading */
+
+h1{
+    background:linear-gradient(45deg,navy,blue,navy);
+    color:white;
+    padding:20px;
+    width:700px;
+    margin:auto;
+    border-radius:15px;
+    box-shadow:0 0 10px black;
+}
+
+/* Navigation */
+
+nav{
+    margin:20px;
+}
+
+a{
+    text-decoration:none;
+    color:navy;
+    font-weight:bold;
+    margin:15px;
+}
+
+/* Welcome */
+
+h2{
+    color:darkblue;
+}
+
+p{
+    font-size:18px;
+}
+
+/* Images */
+
+img{
+    border-radius:15px;
+    box-shadow:0 0 10px black;
+    margin:10px;
+}
+
+/* Table */
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    box-shadow:0 5px 10px black;
+    background:white;
+}
+
+th,td{
+    border:1px solid blue;
+    padding:14px;
+}
+
+th{
+    background:navy;
+    color:white;
+}
+
+.available{
+    color:green;
+    font-weight:bold;
+}
+
+.issued{
+    color:red;
+    font-weight:bold;
+}
+
+</style>
+</head>
+
+<body>
+
+<h1>📚 LIBRARY MANAGEMENT SYSTEM</h1>
+
+<nav>
+<a href="">Home</a>
+<a href="">Books</a>
+<a href="">Students</a>
+<a href="">Issue Book</a>
+<a href="">Return Book</a>
+</nav>
+
+<h2>Welcome to Our Library</h2>
+
+<p>
+Welcome to our library. Here you can find books,
+manage students and check book availability.
+</p>
+
+<div>
+
+<img src="img1.jpg" width="450" height="250">
+
+<img src="img2.jpg" width="450" height="250">
+
+</div>
+
+<h2>📖 Available Books</h2>
+
+<table>
+
+<tr>
+<th>Book ID</th>
+<th>Book Name</th>
+<th>Author</th>
+<th>Category</th>
+<th>Status</th>
+</tr>
+
+<tr>
+<td>B001</td>
+<td>Python Basics</td>
+<td>John</td>
+<td>Programming</td>
+<td class="available">Available</td>
+</tr>
+
+<tr>
+<td>B002</td>
+<td>SQL Guide</td>
+<td>Smith</td>
+<td>Database</td>
+<td class="issued">Issued</td>
+</tr>
+
+<tr>
+<td>B003</td>
+<td>HTML & CSS</td>
+<td>David</td>
+<td>Web Development</td>
+<td class="available">Available</td>
+</tr>
+
+<tr>
+<td>B004</td>
+<td>Java Programming</td>
+<td>Robert</td>
+<td>Programming</td>
+<td class="issued">Issued</td>
+</tr>
+
+</table>
+
+<h2>📌 Library Information</h2>
+
+<p>
+Total Books: 100 |
+Available Books: 75 |
+Issued Books: 25
+</p>
+
+</body>
+</html>
